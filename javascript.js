@@ -1,3 +1,12 @@
 function changeVisibility() {
-	document.getElementById("info").style.display = "block";
+	
+	var taggedElement = document.getElementById("info"),
+		style = window.getComputedStyle(taggedElement).getPropertyValue("display");
+	
+	console.log(style);
+	if (style == "none") {
+		taggedElement.style.display = "block";
+	} else {
+		taggedElement.style.display = "none";
+	}
 }
