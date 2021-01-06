@@ -5,10 +5,26 @@
 	border: 0px;
 }
 
-#mid {
+.row100 {
 	width: 100%;
-	padding: 5% 0% 5% 0%;
+	padding: 5% 0% 0% 0%;
+}
+
+#bannerText {
+	cursor: pointer;
 	color: white;
 	font-size: 30px;
 }
 
+#bannerText:hover {
+	color: red;
+}
+
+#info {
+	display: none;
+	color: white;
+	font-style: italic;
+	color: gray;
+	font-size: 20px;
+	
+}
