@@ -16,6 +16,7 @@
 
 body {
 	background-image: url('background/brick.png');
+	background-image: url("https://spiggiecode.github.io/background/brick.png");
 	background-position: center;
 	background-repeat: repeat;
 	background-size: 64px 64px;
@@ -36,6 +37,7 @@ nav {
 
 #home {
 	background-image: url('icons/wHome.png');
+	background-image: url("https://spiggiecode.github.io/icons/wHome.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -44,10 +46,14 @@ nav {
 	margin: 10px 10px 0px 10px;
 }
 
-#home:hover {background-image: url('icons/Home.png');}
+#home:hover {
+	background-image: url('icons/Home.png');
+	background-image: url("https://spiggiecode.github.io/icons/Home.png");
+}
 
 #shop {
 	background-image: url('icons/wShop.png');
+	background-image: url("https://spiggiecode.github.io/icons/wShop.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -56,10 +62,14 @@ nav {
 	margin: 10px 10px 0px 10px;
 }
 
-#shop:hover {background-image: url('icons/Shop.png');}
+#shop:hover {
+	background-image: url('icons/Shop.png');
+	background-image: url("https://spiggiecode.github.io/icons/Shop.png");
+}
 
 #FAQ {
 	background-image: url('icons/wHelp.png');
+	background-image: url("https://spiggiecode.github.io/icons/wHelp.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -68,11 +78,15 @@ nav {
 	margin: 10px 10px 0px 10px;
 }
 
-#FAQ:hover {background-image: url('icons/Help.png');}
+#FAQ:hover {
+	background-image: url('icons/Help.png');
+	background-image: url("https://spiggiecode.github.io/icons/Help.png");
+}
 
 
 #contact {
 	background-image: url('icons/wContact.png');
+	background-image: url("https://spiggiecode.github.io/wContact.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -81,10 +95,14 @@ nav {
 	margin: 10px 10px 0px 10px;
 }
 
-#contact:hover {background-image: url('icons/Contact.png');}
+#contact:hover {
+	background-image: url('icons/Contact.png');
+	background-image: url("https://spiggiecode.github.io/icons/Contact.png");
+}
 
 #navdecor {
 	background-image: url('background/banner.png');
+	background-image: url("https://spiggiecode.github.io/background/banner.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: repeat-x;
@@ -111,6 +129,7 @@ main {
 
 .candle {
 	background-image: url('background/candle.gif');
+	background-image: url("https://spiggiecode.github.io/background/candle.gif");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;

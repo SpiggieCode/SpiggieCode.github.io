@@ -13,5 +13,6 @@
 
 function toggleCandle() {
 	let candle = document.activeElement;
-	candle.style.backgroundImage = "url('background/candleOut.gif')";	
+	//candle.style.backgroundImage = "url('background/candleOut.gif')";
+	candle.stlye.backgroundImage = "url('https://spiggiecode.github.io/background/candleOut.gif')";
 }
