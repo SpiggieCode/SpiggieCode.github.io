@@ -16,7 +16,7 @@
 
 body {
 	background-image: url('background/brick.png');
-	background-image: url("https://spiggiecode.github.io/background/brick.png");
+	background-image: url("./background/brick.png");
 	background-position: center;
 	background-repeat: repeat;
 	background-size: 64px 64px;
