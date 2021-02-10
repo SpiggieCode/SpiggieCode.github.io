@@ -1,30 +1,139 @@
-* {
-	background-color: #292929;
-	text-align: center;
+* {	
+	/* margin and padding must be explicitely declared, better control */
 	margin: 0px;
-	border: 0px;
-}
-
-.row100 {
-	width: 100%;
-	padding: 5% 0% 0% 0%;
-}
-
-#bannerText {
-	cursor: pointer;
-	color: white;
-	font-size: 30px;
-}
-
-#bannerText:hover {
-	color: red;
-}
-
-#info {
-	display: none;
-	color: white;
-	font-style: italic;
-	color: gray;
-	font-size: 20px;
+	padding: 0px;
 	
+	/* border is added on inside to maintain element proportions */
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	/* for that authentic 90s feel */
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	overflow: auto;
+	cursor:url(Sword.cur),auto;
+}
+
+body {
+	background-image: url('background/brick.png');
+	background-image: url("https://spiggiecode.github.io/background/brick.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 64px 64px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	background-color: #ba0000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#home {
+	background-image: url('icons/wHome.png');
+	background-image: url("https://spiggiecode.github.io/icons/wHome.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 10px 10px 0px 10px;
+}
+
+#home:hover {
+	background-image: url('icons/Home.png');
+	background-image: url("https://spiggiecode.github.io/icons/Home.png");
+}
+
+#shop {
+	background-image: url('icons/wShop.png');
+	background-image: url("https://spiggiecode.github.io/icons/wShop.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 10px 10px 0px 10px;
+}
+
+#shop:hover {
+	background-image: url('icons/Shop.png');
+	background-image: url("https://spiggiecode.github.io/icons/Shop.png");
+}
+
+#FAQ {
+	background-image: url('icons/wHelp.png');
+	background-image: url("https://spiggiecode.github.io/icons/wHelp.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 10px 10px 0px 10px;
+}
+
+#FAQ:hover {
+	background-image: url('icons/Help.png');
+	background-image: url("https://spiggiecode.github.io/icons/Help.png");
+}
+
+
+#contact {
+	background-image: url('icons/wContact.png');
+	background-image: url("https://spiggiecode.github.io/wContact.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 10px 10px 0px 10px;
+}
+
+#contact:hover {
+	background-image: url('icons/Contact.png');
+	background-image: url("https://spiggiecode.github.io/icons/Contact.png");
+}
+
+#navdecor {
+	background-image: url('background/banner.png');
+	background-image: url("https://spiggiecode.github.io/background/banner.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: repeat-x;
+	height: 64px;
+	width: 100%;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
+main {
+
+	padding: 150px 20px 20px 20px;
+	text-align: center;
+	width: 70%;
+	height: 100vh;
+	background-color: white;
+	border-style: none solid none solid;
+}
+
+.candle {
+	background-image: url('background/candle.gif');
+	background-image: url("https://spiggiecode.github.io/background/candle.gif");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 64px;
+	margin: 200px auto auto auto;
 }

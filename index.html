@@ -8,26 +8,45 @@
 		<title>Spiggie's Test Page</title>
 		<meta name="description" content="Github Test Page">
 		<meta name="author" content="SpiggieCode">
-		<link rel="stylesheet" type="text/css" href="https://spiggiecode.github.io/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="https://spiggiecode.github.io/stylesheet.css">
 
 	</head>
 
 	<body>
-	
-		<div class="row100">
-			<p id="bannerText" onClick="changeVisibility()">git gud</p>
+
+		<header>
+			<!-- top of the page, 100% width, fixed -->
+			<nav>
+				<div id="home"></div>
+				<div id="shop"></div>
+				<div id="FAQ"></div>
+				<div id="contact"><div>
+			</nav>
+			<div id="navdecor">
+			</div>
+		</header>
+		
+		<div id="content">
+		
+			<div class="candle" id="candle1" onclick="toggleCandle()"></div>
+			<main>
+				<h2>SpiggieCode's retro 90's website!</h2>
+				<br>
+				<p>The generation of Gameboy and the wild wild web, the 90's deserves to be preserved.<br>
+				In the 90's web, anything goes. Design made no sense, and website optimization was only a vague concept.<br>
+				It truly was a golden age.<br><br>
+				I remember when my family got their first computer. It was an old Windows 95 machine.<br>
+				We quickly got connected to our dial-up internet, supplied by the dial-up king AOL.<br>
+				I spent an entire day downloading an episode of Tom & Jerry in super high definition 320p.
+				</p>
+				
+			</main>	
+			<div class="candle" id="candle2" onclick="toggleCandle()"></div>
 		</div>
-		<div class="row100">
-			<p id="info">
-				"This is a small side project dealing with HTML, CSS, and Javascript. <br/>
-				I don't really know whats going to happen here yet. Hopefully this will hold something cool in the future!"
-			</p>
-		</div>
-	
-	
-		<script src="https://spiggiecode.github.io/javascript.js"></script>
+		
 		<script src="javascript.js"></script>
+		<script src="https://spiggiecode.github.io/javascript.js"></script>
 	</body>
 
 </html>
